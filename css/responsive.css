@@ -1,0 +1,63 @@
+@media(max-width: 1035px){
+    .LogIn{
+        display: none;
+    }
+}
+@media(max-width: 805px){
+    .navBar{
+        display: none !important;
+        width: 100%;
+        background-color: aquamarine;
+        position: absolute;
+        margin-top: 190px;
+        left: 0;
+        right: 0;
+        padding: 0;
+    }
+    .navBar li{
+        height: 65px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .bar{
+        visibility: visible !important;
+    }
+    #TitleOn__BGImage{
+        font-size: 40px !important;
+    }
+    .JoisUsTitle{
+        font-size: 32px !important;
+    }
+}
+@media(max-width: 889px){
+    .courseCategories__container{
+        justify-content: center !important;
+    }
+    .CourseCategories__Title{
+        font-size: 36px !important;
+    }
+}
+@media(max-width: 1044px){
+    .SearchCourseForm{
+        justify-content: center !important;
+    }
+    .CourseSearch__Title{
+        font-size: 35px !important;
+    }
+}
+@media(max-width: 400px){
+    .SearchCourseCat{
+        width: 165px !important;
+    }
+}
+@media(max-width: 646px){
+    .featuredCourse__List{
+        justify-content: center !important;
+    }
+}
+@media(max-width: 499px){
+    .Footer__Container{
+        justify-content: center !important;
+    }
+}

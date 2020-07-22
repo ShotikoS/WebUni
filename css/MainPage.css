@@ -1,0 +1,558 @@
+.width {
+  width: 85%;
+}
+
+.footerFont {
+  font-size: 24px;
+}
+
+.active {
+  display: block !important;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  font-family: B612;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: B612;
+}
+
+a, li, p, input {
+  font-family: B612;
+}
+
+.bg__Image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  top: 0;
+  left: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 948px;
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+}
+
+.header__container {
+  padding-top: 60px;
+  height: 54px;
+  width: 85%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logo img {
+  height: 46px;
+}
+
+.navBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navBar li {
+  list-style-type: none;
+  margin: 0px 20px;
+}
+
+.navBar li a {
+  font-size: 20;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.navBar li a:hover {
+  color: #d82a4e;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.LogIn {
+  width: 196px;
+  height: 54px;
+  font-size: 20px;
+  background-color: #d82a4e;
+  border: 1px #d82a4e solid;
+  color: white;
+}
+
+.bar {
+  position: absolute;
+  font-size: 33px;
+  cursor: pointer;
+  width: 84%;
+  text-align: right;
+  color: white;
+  visibility: hidden;
+}
+
+.TextOnBgImage {
+  width: 100%;
+  height: 834px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#TitleOn__BGImage {
+  font-size: 60px;
+  text-align: center !important;
+  color: white;
+  width: 85%;
+}
+
+.textBelowMainText {
+  text-align: center;
+  font-size: 14px;
+  width: 85%;
+  color: white;
+  margin-top: 25px;
+}
+
+.SignUpBoxes {
+  padding: 0px 30px;
+  height: 53px;
+  margin: 0px 15px;
+  width: 210px;
+  outline: none;
+  margin-top: 20px;
+  border: white 1px solid;
+  font-style: italic;
+  font-size: 18px;
+}
+
+#signUpBtn {
+  color: white;
+  background-color: #d82a4e;
+  border: 1px #d82a4e solid;
+  height: 57px;
+  outline: none;
+  margin: 0px 15px;
+  margin-top: 20px;
+  font-size: 19px;
+  width: 214px;
+  padding: 0px 10px;
+}
+
+.SignUpForm {
+  margin-top: 80px;
+  width: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.CourseCategories__Title, .FeaturedTitle {
+  font-size: 48px;
+  color: #474747;
+  text-align: center;
+}
+
+.textBeloweCatTitle, .TextBeloweFeatured {
+  font-size: 14px;
+  color: #919191;
+  text-align: center;
+}
+
+.courseCategories__Container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 120px;
+}
+
+.textBeloweCatTitle, .TextBeloweFeatured {
+  margin-top: -10px;
+}
+
+.courseCategories__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+  margin-left: 50%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.courseCategories__container li {
+  list-style-type: none;
+  width: 364px;
+  margin-top: 20px;
+  cursor: pointer;
+  background: #edf4f6;
+}
+
+.courseCategories__container li img {
+  width: 100%;
+}
+
+.courseCategories__container li p {
+  padding: 0px 20px;
+}
+
+.courseCategories__container li h3 {
+  padding: 0px 20px;
+}
+
+.courseCategories__container li a {
+  text-decoration: none;
+}
+
+.CourseName {
+  color: #474747;
+  font-size: 20px;
+  overflow: hidden;
+  height: 24px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.describe {
+  font-size: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 40px;
+  margin-top: -15px;
+  overflow: hidden;
+  color: #878787;
+}
+
+.CourseDuration {
+  font-size: 18px;
+  color: #d82a4e;
+  margin-top: -20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.searchYourCourse__container {
+  width: 85%;
+  margin: 0 auto;
+  background-color: #d82a4e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 145px !important;
+}
+
+.CourseSearch__Title {
+  font-size: 48px;
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
+.SearchCourseForm {
+  background-color: white;
+  padding: 50px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+}
+
+.SearchCourseCat {
+  height: 56px;
+  width: 230px;
+  margin: 10px;
+  padding: 0px 30px;
+  font-size: 18px;
+  font-style: italic;
+  border: #edf4f6 1px solid;
+  background-color: #edf4f6;
+}
+
+.SearchCourse_Btn {
+  width: 176px;
+  font-size: 18px;
+  margin: 10px;
+  color: white;
+  height: 56px !important;
+  background-color: #d82a4e;
+  border: #d82a4e 1px solid;
+}
+
+.featuredCourse__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 80px;
+}
+
+.CourseCat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 70px;
+}
+
+.CourseCat li {
+  list-style-type: none;
+  margin: 12px 22px;
+}
+
+.CourseCat li a {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-size: 19px;
+}
+
+.featuredCourse__List {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px;
+}
+
+.featuredCourse__List li {
+  padding: 0;
+  list-style-type: none;
+  font-family: "B613";
+  margin-top: 20px;
+  background-color: #edf4f6;
+}
+
+.featuredCourse__List li h3, .featuredCourse__List li p, .featuredCourse__List li div {
+  width: 85%;
+  margin: auto;
+}
+
+.featuredCourse__List li img {
+  width: 307px;
+}
+
+.featuredCourse__List li .TeacherInFeature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.featuredCourse__List li .TeacherInFeature img {
+  border-radius: 50%;
+  width: 50px;
+  overflow: hidden;
+}
+
+.FeatureTitle {
+  margin-top: 45px !important;
+  font-size: 20px;
+  color: #474747;
+}
+
+.FeatureDescribtion {
+  margin-top: 0px !important;
+  font-size: 14px;
+  color: #878787;
+  line-height: 30px;
+  height: 60px;
+  overflow: hidden;
+}
+
+.StudentsQuantity {
+  margin-top: 18px !important;
+  color: #d82a4e;
+  font-size: 16px;
+  padding-bottom: 14px;
+}
+
+.TeacherInFeature {
+  padding: 10px 0px;
+  color: #878787;
+}
+
+.profession {
+  color: #d82a4e;
+}
+
+.FeaturePrice {
+  position: absolute;
+  margin-top: -230px !important;
+  width: 70px !important;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 15px !important;
+  padding: 13px 19px;
+  color: white;
+  background-color: #d82a4e;
+}
+
+.detailsAboutTeacher {
+  margin-left: 20px !important;
+}
+
+.JoisUs__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 130px;
+}
+
+.JoisUsTitle {
+  font-size: 48px;
+  color: #474747;
+  text-align: center;
+}
+
+.TextBehindJoinUs {
+  font-size: 14px;
+  color: #878787;
+  text-align: center;
+}
+
+.RegisterNow {
+  width: 194px;
+  padding: 15px 0px;
+  background-color: #d82a4e;
+  border: 1px #d82a4e solid;
+  font-size: 19px;
+  color: white;
+  margin-top: 30px;
+}
+
+.Footer__Container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 70px;
+}
+
+.EngereeningUl {
+  padding: 0px;
+}
+
+.EngereeningUl li {
+  list-style-type: none;
+  margin: 15px 0px;
+}
+
+.EngereeningUl li a {
+  text-decoration: none;
+  color: #878787;
+}
+
+.GraphicDesignUl {
+  padding: 0px;
+}
+
+.GraphicDesignUl li {
+  list-style-type: none;
+  margin: 15px 0px;
+}
+
+.GraphicDesignUl li a {
+  text-decoration: none;
+  color: #878787;
+}
+
+.DevelopmentUl {
+  padding: 0px;
+}
+
+.DevelopmentUl li {
+  list-style-type: none;
+  margin: 15px 0px;
+}
+
+.DevelopmentUl li a {
+  text-decoration: none;
+  color: #878787;
+}
+/*# sourceMappingURL=MainPage.css.map */
